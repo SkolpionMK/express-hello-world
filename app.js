@@ -24,7 +24,7 @@ app.get('/pokemons', (req, res) => {
     res.json({1: "Pikachu", 2: "Caterpie", 3: "Pidgeotto", 4: "Bulbasaur", 5: "Charmander", 6: "Squirtle", 7: "Krabby", 8: "Raticate", 9: "Primeape", 10: "Muk"})
 })
 
-app.get('/series', (req, res) => {
+app.post('/series', (req, res) => {
     res.json({1: "Chaves", 2: "JoJo's Bizzare Adventure", 3: "DragonBall Super"})
 })
 
